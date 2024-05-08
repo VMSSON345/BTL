@@ -12,10 +12,15 @@
 The application is designed to support learning English. The application is written in Java and uses the JavaFX library. The application is based on the MVC model. The application has two types of dictionaries: English-Vietnamese and Vietnamese-English. The application use E_V.txt files to store data.
 
 1.The application is designed to support learning English and improving necessary skills .
+
 2.The application is written in Java and uses the JavaFX library.
+
 3.The application is based on the MVC model.
+
 4.The application has one types of dictionaries: English-Vietnamese.
+
 5.The application use E_V.txt.
+
 6.The application helps users to boost listening skill and vocabulary.
 
 
@@ -26,8 +31,9 @@ The application is designed to support learning English. The application is writ
 ## Installation
 1. Clone the project from the repository.
 2. Open the project in the IDE.
-3. Run the project.
-4. If you want to change the data, you can change the E_V.txt and V_E.txt files.
+3. Dowload text_to_speech from https://www.geeksforgeeks.org/converting-text-speech-java/.
+4. Run the project.
+5. If you want to change the data, you can change the E_V.txt and V_E.txt files.
 
 ## UML diagram
 ![image](https://github.com/VMSSON345/BTL/assets/161271507/357a9cf3-70cb-4a39-9910-0c2d0fb13568)
