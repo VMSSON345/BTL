@@ -1,0 +1,80 @@
+/**
+.root {
+    -button-color: #747f8d;
+    -hover-button-color: #2e3338;
+
+    -purple-color: #5865F2;
+    -hover-purple-color: #4752C4;
+
+    -text-color: #555c5d;
+    -hover-text-color: #2e3338;
+
+    -gray-color: #e6e6e6;
+    -title-color: #060607;
+    -hover-background-color: #D4D7DC;
+}
+**/
+.button-speak {
+    -fx-background-image: url("file:/D:/demo/demo/src/main/resources/normal/speak.png");
+    -fx-background-repeat: no-repeat;
+        -fx-background-position: center;
+        -fx-background-size: 25;
+        -fx-background-color: #e6e6e6;
+        -fx-pref-width: 39;
+        -fx-pref-height: 42;
+}
+.button-speak:hover {
+    -fx-background-image: url("file:/D:/demo/demo/src/main/resources/hover/speak.png");
+    -fx-background-size: 25;
+}
+.button-lang {
+    -fx-background-color: #e6e6e6;
+    -fx-min-width: 50;
+    -fx-padding: 5;
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+}
+
+.button-lang.active {
+    -fx-background-color: white;
+    -fx-text-fill: #2e3338;
+}
+.button-lang1 {
+    -fx-background-color: #e6e6e6;
+    -fx-min-width: 50;
+    -fx-padding: 5;
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+}
+
+.button-lang1.active {
+    -fx-background-color: white;
+    -fx-text-fill: #2e3338;
+}
+
+.button-cancel{
+    -fx-background-color: #e6e6e6;
+    -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/cancel11.png');
+}
+.button-translate-submit {
+    -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/translate-submit.png');
+    -fx-background-color: #5865F2;
+    -fx-border-radius: 3;
+    -fx-padding: 5;
+    -fx-pref-width: 70;
+    -fx-pref-height: 30;
+
+    -fx-text-fill: white;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+.button-translate-submit:hover {
+    -fx-text-fill: white;
+    -fx-background-color: #D4D7DC;
+}
+.title-meaning1 {
+     -fx-text-fill: #ffffff;
+     -fx-font-size: 20;
+     -fx-font-weight: bold;
+     -fx-background-color: none;
+ }
