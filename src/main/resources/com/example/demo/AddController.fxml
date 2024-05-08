@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.web.HTMLEditor?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #eae7e7;" stylesheets="@save.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controllers.AddController">
+   <children>
+      <HBox prefHeight="59.0" prefWidth="800.0" style="-fx-background-color: #151e4f;">
+         <children>
+            <AnchorPane prefHeight="59.0" prefWidth="802.0">
+               <children>
+                  <ImageView fitHeight="27.0" fitWidth="49.0" layoutX="14.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="16.0">
+                     <image>
+                        <Image url="@../../../normal/flagusuk.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="45.0" fitWidth="41.0" layoutX="734.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="751.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="16.0">
+                     <image>
+                        <Image url="@../../../normal/flagvietnam.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="363.0" layoutY="14.0" prefHeight="30.0" prefWidth="86.0" styleClass="title-meaning1" text="Thêm từ" />
+               </children>
+            </AnchorPane>
+         </children></HBox>
+      <TextField fx:id="textWord" layoutX="259.0" layoutY="94.0" prefHeight="34.0" prefWidth="306.0" styleClass="rounded-text" />
+      <Label layoutX="173.0" layoutY="94.0" prefHeight="34.0" prefWidth="86.0" styleClass="title-meaning2" text="Vocabulary" textFill="#2fc72d" />
+      <AnchorPane layoutX="103.0" layoutY="182.0" prefHeight="373.0" prefWidth="587.0">
+         <children>
+            <HTMLEditor fx:id="htmlEditor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="8.0" layoutY="38.0" prefHeight="336.0" prefWidth="579.0" />
+            <HBox layoutX="491.0" layoutY="3.0" prefHeight="34.0" prefWidth="95.0">
+               <children>
+                  <Button fx:id="add" mnemonicParsing="false" prefHeight="11.0" prefWidth="46.0" textFill="#07044b">
+                     <styleClass>
+                        <String fx:value="button-add" />
+                        <String fx:value="rounded-text" />
+                     </styleClass></Button>
+                  <Button mnemonicParsing="false" onAction="#addReset" prefHeight="47.0" prefWidth="46.0">
+                     <styleClass>
+                        <String fx:value="button-reset" />
+                        <String fx:value="rounded-text" />
+                     </styleClass></Button>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <Button layoutX="567.0" layoutY="94.0" mnemonicParsing="false" onAction="#handleClickArrow" prefHeight="30.0" prefWidth="52.0">
+         <styleClass>
+            <String fx:value="button-arrow" />
+            <String fx:value="rounded-text" />
+         </styleClass></Button>
+   </children>
+</AnchorPane>
