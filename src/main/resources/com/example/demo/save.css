@@ -1,0 +1,90 @@
+.text-lang-first {
+    -fx-text-fill: #283583;
+    -fx-font-size: 11;
+    -fx-font-weight: bold;
+}
+
+.text-lang-second {
+    -fx-text-fill: #C91352;
+    -fx-font-size: 11;
+    -fx-font-weight: bold;
+ }
+ .button-speak {
+     -fx-background-image: url("file:/D:/demo/demo/src/main/resources/normal/speak.png");
+     -fx-background-size: 22;
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+     -fx-pref-width: 25;
+     -fx-pref-height: 25;
+      -fx-background-color: none;
+ }
+ .button-speak:hover {
+
+     -fx-background-image: url("file:/D:/demo/demo/src/main/resources/hover/speak.png");
+     -fx-background-color: none;
+ }
+ .title-meaning {
+     -fx-text-fill: #060607;
+     -fx-font-size: 20;
+     -fx-font-weight: bold;
+ }
+ .button-add {
+     -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/addbutton.png');
+     -fx-background-color: #151e4f;
+ }
+ .button-favourite{
+     -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/favourite.png');
+     -fx-background-color: none;
+ }
+
+ .button-favourite:hover {
+     -fx-graphic: url('file:/D:/demo/demo/src/main/resources/hover/favourite.png');
+ }
+ .button-favourite.active {
+     -fx-graphic: url('file:/D:/demo/demo/src/main/resources/hover/favourite.png');
+ }
+.button-arrow {
+    -fx-background-image: url('file:/D:/demo/demo/src/main/resources/normal/arrow.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 15;
+    -fx-background-color:  #151e4f;
+    -fx-background-radius: 0 3 3 0;
+    -fx-pref-width: 34;
+    -fx-pref-height: 34;
+}
+.button-reset {
+    -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/reset.png');
+}
+
+.button-reset:hover {
+    -fx-graphic: url('file:/D:/demo/demo/src/main/resources/hover/reset.png');
+}
+.title-meaning2 {
+     -fx-text-fill: #060607;
+     -fx-font-size: 15;
+     -fx-font-weight: bold;
+ }
+ .button-remove {
+     -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/remove.png');
+      -fx-background-color: none;
+ }
+
+ .button-remove:hover {
+     -fx-graphic: url('file:/D:/demo/demo/src/main/resources/hover/remove.png');
+ }
+ .title-meaning1 {
+      -fx-text-fill: #ffffff;
+      -fx-font-size: 20;
+      -fx-font-weight: bold;
+      -fx-background-color: none;
+  }
+  .rounded-text {
+       -fx-background-radius: 15;
+       -fx-border-radius: 15;
+   }
+
+.list-cell:selected {
+     -fx-background-color:  #151e4f; /* Màu sắc của các mục được chọn */
+     -fx-text-fill: white; /* Màu văn bản của các mục được chọn */
+ }
