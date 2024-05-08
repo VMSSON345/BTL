@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.HTMLEditor?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #eae7e7;" stylesheets="@main.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controllers.SearchController">
+   <children>
+      <HBox prefHeight="59.0" prefWidth="814.0" style="-fx-background-color: #151e4f;" />
+      <AnchorPane prefHeight="600.0" prefWidth="248.0">
+         <children>
+            <VBox layoutY="59.0" prefHeight="537.0" prefWidth="256.0">
+               <children>
+                  <ListView fx:id="listView" onMouseClicked="#handleMouseClickAWord" prefHeight="538.0" prefWidth="265.0" styleClass="list-cell" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="textField" layoutX="4.0" layoutY="9.0" onKeyReleased="#handleOnTyped" prefHeight="42.0" prefWidth="246.0" promptText="Tra từ" styleClass="rounded-button">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </TextField>
+      <HBox layoutX="204.0" layoutY="10.0" prefHeight="42.0" prefWidth="90.0">
+         <children>
+            <Button fx:id="cancelButton" mnemonicParsing="false" prefHeight="46.0" prefWidth="61.0" styleClass="button-cancel" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="37.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../normal/cancel.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+         </children>
+      </HBox>
+      <AnchorPane layoutX="258.0" layoutY="5.0" prefHeight="590.0" prefWidth="517.0" AnchorPane.bottomAnchor="4.600000000000023">
+         <children>
+            <AnchorPane layoutY="113.0" prefHeight="488.0" prefWidth="549.0" styleClass="myAnchorPane" AnchorPane.bottomAnchor="0.0">
+               <children>
+                  <HTMLEditor fx:id="editDefinition" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutY="20.0" prefHeight="468.0" prefWidth="542.0" />
+                  <WebView fx:id="definitionView" layoutY="19.0" onMouseClicked="#handleMouseClickAWord" prefHeight="468.0" prefWidth="542.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="54.0" prefHeight="71.0" prefWidth="542.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <HBox layoutX="25.0" layoutY="22.0" prefHeight="27.0" prefWidth="106.0">
+                     <children>
+                        <HBox prefHeight="38.0" prefWidth="58.0">
+                           <children>
+                              <Label alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="22.0" styleClass="text-lang-second" text="US" />
+                              <Button fx:id="volumeButton1" mnemonicParsing="false" prefHeight="26.0" prefWidth="38.0" styleClass="button-speak" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="42.0">
+                           <children>
+                              <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="31.0" prefWidth="18.0" styleClass="text-lang-first" text="UK" />
+                              <Button fx:id="volumeButton" mnemonicParsing="false" prefHeight="32.0" prefWidth="38.0" styleClass="button-speak" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="364.0" layoutY="22.0" prefHeight="38.0" prefWidth="177.0">
+                     <children>
+                        <Button fx:id="updateButton" mnemonicParsing="false" prefHeight="37.0" prefWidth="42.0" styleClass="button-save" />
+                        <Button fx:id="deleteButton" mnemonicParsing="false" prefHeight="37.0" prefWidth="42.0" styleClass="button-remove" />
+                        <Button fx:id="editButton" layoutX="52.0" layoutY="10.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="42.0" styleClass="button-edit" />
+                        <Button fx:id="luuButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="42.0" styleClass="button-favourite" />
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="27.0" fitWidth="49.0" layoutX="17.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../normal/flagusuk.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="73.0" layoutX="489.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="489.0" AnchorPane.rightAnchor="21.636618804931686" AnchorPane.topAnchor="13.0">
+               <image>
+                  <Image url="@../../../normal/flagvietnam.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="239.0" layoutY="11.0" styleClass="title-meaning1" text="Từ điển" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
