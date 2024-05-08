@@ -30,6 +30,8 @@ The application is designed to support learning English. The application is writ
 4. If you want to change the data, you can change the E_V.txt and V_E.txt files.
 
 ## UML diagram
+![image](https://github.com/VMSSON345/BTL/assets/161271507/357a9cf3-70cb-4a39-9910-0c2d0fb13568)
+
 # Usage
 
 1. Open dictionary.
