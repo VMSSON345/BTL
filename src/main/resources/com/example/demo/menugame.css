@@ -1,0 +1,20 @@
+.button-back {
+    -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/backgame2.png');
+    -fx-background-color: none;
+}
+.anchor pane {
+    -fx-background-color: #4ed4d4;
+}
+.rounded-button {
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+}
+.title-meaning {
+     -fx-text-fill: #060607;
+     -fx-font-size: 18;
+     -fx-font-weight: bold;
+ }
+ .button.active{
+     -fx-background-color: white;
+     -fx-text-fill: #2e3338;
+ }
