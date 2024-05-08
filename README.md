@@ -23,7 +23,8 @@ The application is designed to support learning English. The application is writ
 
 6.The application helps users to boost listening skill and vocabulary.
 
-![image](https://github.com/VMSSON345/BTL/assets/160839826/a83415be-3c73-43e9-8f02-63cb62f271e2)
+![image](https://github.com/VMSSON345/BTL/assets/160839826/02cdf3dc-fb32-4c54-911f-a1552f89f0b0)
+
 
 
 
