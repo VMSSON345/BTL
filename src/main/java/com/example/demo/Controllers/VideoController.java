@@ -34,7 +34,7 @@ public class VideoController implements Initializable {
 
     public void initialize(URL url, ResourceBundle resourceBundle) {
         // Tạo một đối tượng Media từ tệp video
-        String videoFile = "D:\\demo\\demo\\src\\main\\resources\\media\\vid1.mp4"; // Đường dẫn đến tệp video của bạn
+        String videoFile = "D:\demo\demo\src\main\resources\media\Are you following your dreams_ ⏲️ 6 Minute English.mp4"; // Đường dẫn đến tệp video của bạn
         Media media = new Media(new File(videoFile).toURI().toString());
 
         // Tạo một đối tượng MediaPlayer từ đối tượng Media
