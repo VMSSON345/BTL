@@ -1,0 +1,57 @@
+.button-search {
+    -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/search.png');
+    -fx-background-color: none;
+}
+
+
+
+
+
+.button-translate {
+    -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/translate.png');
+    -fx-background-color: none;
+}
+
+
+
+
+
+.button-favourite {
+    -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/favourite.png');
+    -fx-background-color: none;
+}
+
+
+
+
+.button-add {
+    -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/addbutton.png');
+    -fx-background-color: none;
+}
+
+.button-game {
+    -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/gamebut.png');
+    -fx-background-color: none;
+}
+.button-lis {
+    -fx-graphic: url('file:/D:/demo/demo/src/main/resources/normal/lisbut.png');
+    -fx-background-color: none;
+}
+.button-lang {
+    -fx-background-color: none;
+    -fx-min-width: 50;
+    -fx-padding: 5;
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+}
+
+.button-lang:hover {
+    -fx-background-color: #b8b8b8;
+    -fx-text-fill: #2e3338;
+}
+.button-lang.active {
+    -fx-background-color: #b8b8b8;
+    -fx-text-fill: #2e3338;
+}
+
+
