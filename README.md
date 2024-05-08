@@ -22,7 +22,9 @@ The application is designed to support learning English. The application is writ
 5.The application use E_V.txt.
 
 6.The application helps users to boost listening skill and vocabulary.
-![image](https://github.com/VMSSON345/BTL/assets/160839826/2a94be1e-4302-4b44-8a42-cb45ca1987f6)
+
+![image](https://github.com/VMSSON345/BTL/assets/160839826/a83415be-3c73-43e9-8f02-63cb62f271e2)
+
 
 
 
