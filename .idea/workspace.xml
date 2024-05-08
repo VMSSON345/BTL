@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa4263f6-7fb3-4cc4-ba02-561e064b32e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/BookmarkList.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/E_V.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/RecentList.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/V_E.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data_commandline.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Alerts/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/AddController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/SaveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/TranslateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/VideoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DictionaryApp/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DictionaryApp/DictionaryCommandline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DictionaryApp/DictionaryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DictionaryApp/SortWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DictionaryApp/TranslateAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DictionaryApp/VoiceRSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DictionaryApp/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Game/InsertQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Game/PlayGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Game/Questions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Trie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/AddController.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/InsertQuestion.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/MainController.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/Menu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/PlayGame.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/SaveController.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/SearchController.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/TranslateController.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/VideoController.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/menugame.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/save.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/translate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo/vid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hover/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hover/favourite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hover/history.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hover/remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hover/reset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hover/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hover/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hover/setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hover/speak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hover/translate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/media/audio.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/media/audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/media/vid1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/addbutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/backgame2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/cancel11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/double-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/eng-viet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/favourite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/flagusuk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/flagvietnam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/gamebut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/history.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/lisbut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/play1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/reset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/search-bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/speak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/translate-submit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/translate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/normal/viet-eng.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2esC3xZpd5H9F2MF4eeLISLJIXN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.App.executor": "Run",
+    "Application.DictionaryCommandline.executor": "Run",
+    "Application.TranslateAPI.executor": "Run",
+    "Application.VoiceRSS.executor": "Run",
+    "Application.com.example.demo.App.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/freetts-1.2.2-bin/freetts-1.2/lib",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "CSS"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\demo\demo\data" />
+      <recent name="D:\demo\demo\src\main\resources\com\example\demo" />
+      <recent name="D:\demo\demo\src\main\java\com\example\demo\Game" />
+      <recent name="D:\demo\demo\src\main\resources" />
+      <recent name="D:\demo\demo\src\main\resources\media" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\demo\demo\src\main\resources\com\example\demo\Game" />
+      <recent name="D:\demo\demo\data" />
+      <recent name="D:\demo\demo\src\main\resources\com\example\demo" />
+      <recent name="D:\demo\demo" />
+      <recent name="D:\demo\demo\src\main\resources\Image" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.Game" />
+      <recent name="com.example.demo.Controllers.Game" />
+      <recent name="com.example.demo.DictionaryApp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.App" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DictionaryCommandline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DictionaryApp.DictionaryCommandline" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.DictionaryApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TranslateAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DictionaryApp.TranslateAPI" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.DictionaryApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoiceRSS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DictionaryApp.VoiceRSS" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.DictionaryApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.DictionaryCommandline" />
+        <item itemvalue="Application.VoiceRSS" />
+        <item itemvalue="Application.TranslateAPI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa4263f6-7fb3-4cc4-ba02-561e064b32e7" name="Changes" comment="" />
+      <created>1712683707094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712683707094</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.reflect.InvocationTargetException" package="java.lang.reflect" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.UnknownHostException" package="java.net" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
